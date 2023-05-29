@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+  header {
+    align-items: center;
+    height: 64px;
+    min-width: fit-content;
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  body{    
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .left-header, .right-header{
+    max-width: fit-content;
+    margin: 0px 20px 0px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .left-header:hover, .right-header:hover{
+    color: #0e94b9;
+    transition: color 0.1s ease-in;
+  }
+  .right-align-header-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+  }
+</style>
+<body>
+  <header>
+    <a class="left-header" href="/index.html">Home</a>
+    <a class="left-header" href="/index.html">News</a>
+    <div class="right-align-header-container">
+      <a class="right-header" href="https://dot.cards/josuch">Contact Me</a>
+    </div>
+  </header>
+</body>
+</html>
