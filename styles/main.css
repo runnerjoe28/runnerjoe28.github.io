@@ -5,11 +5,62 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .content {
   background-image: url(/assets/images/burruss_hall.jpg);
   background-size: cover;
+  background-position: center;
   flex: 1 0 auto;
+  display: flex;
 }
+
+main {
+  margin-left: auto;
+  max-width: 1000px;
+  flex-grow: 1;
+  margin-right: auto;
+}
+.std-article {
+  border: solid;
+  border-color: #0e94b9;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #d4f6ff;
+  opacity: 0.9;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.std-article-header {
+  margin-top: 5px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.std-article-date {
+  margin-top: 0px;
+}
+
+aside {
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+.aside-contents {
+  border-left: solid;
+  border-color: #000000;
+  padding: 10px;
+  background-color: #5e7f81;
+  min-width: 200px;
+}
+
 .footer-wrapper {
   flex-shrink: 0;
+}
+
+@media (max-width: 1300px) {
+  main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
