@@ -58,6 +58,18 @@ aside {
   flex-shrink: 0;
 }
 
+@media (max-width: 760px) {
+  .content {
+    flex-direction: column;
+  }
+  .aside-contents {
+    border: none;
+    border-top: solid;
+    border-color: #000000;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1300px) {
   main {
     margin-left: 20px;
