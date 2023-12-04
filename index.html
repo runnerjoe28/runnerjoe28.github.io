@@ -6,32 +6,119 @@
   <link rel="stylesheet" href="/styles/main.css"/>
   
   <title>Joseph O'Such | Personal Website</title>
-
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script> 
-    $(function(){
-      $(".header").load("header.html");
-      $(".footer").load("footer.html");
-    });
-  </script> 
+
+  <!-- fontawesome.com code for icons -->
+  <script src="https://kit.fontawesome.com/f46c787537.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="header"></div>
+  <header class="main-header">
+    <a class="left-header" href="/index.html">Home</a>
+    <p class="left-header">More to come...</a>
+    <div class="right-align-header-container">
+      <a class="right-header" href="https://dot.cards/josuch">Contact Me</a>
+    </div>
+  </header>
   <div class="content">
     <main>
-      <article class="std-article">
-        <h1 class="std-article-header">Building a "website"</h1>
-        <p class="std-article-date">May 29, 2023</p>
-        <p>Websites are pretty neat. I feel like the goal of all young coders is to build one. The sterotype of asking programmers to build an app/website further plays into this. I've been coding for I'd say long enough (nearly senior in college now) so I figured I'd start with making a static site with github pages. This quick writeup is mostly for something to fill the homepage if I'm being honest, but I hope I can expand both this website and associated github projects. Like everyone I have quite a few ideas for projects, we will see if I get around to any of them at this point.</p>
-      </article>
-    </main>
-    <aside>
-      <div class="aside-contents">
-        <p>I'll use this later lol</p>
-        <p>I'll use this later lol</p>
+      <div class="std-article-wrapper">
+        <article class="std-article">
+          <div class="std-article-text">
+            <h1 class="std-article-header">About Me</h1>
+            <p>Websites are pretty neat. I feel like the goal of all young coders is to build one. The sterotype of asking programmers to build an app/website further plays into this. I've been coding for I'd say long enough (nearly senior in college now) so I figured I'd start with making a static site with github pages. This quick writeup is mostly for something to fill the homepage if I'm being honest, but I hope I can expand both this website and associated github projects. Like everyone I have quite a few ideas for projects, we will see if I get around to any of them at this point.</p>
+          </div>
+          <img class="std-article-image" src="/assets/images/joseph_headshot.jpg">
+        </article>
       </div>
-    </aside>
+      <h1 class="card-header">Interest Areas</h1>
+      <section class="card-wrapper">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style>
+              <img class="flip-card-image" src="/assets/images/web_dev_image.png">
+              <h2 class="flip-card-image-caption">Web Development</h2>
+            </div>
+            <div class="flip-card-back">
+              <p class="flip-card-story">During the 2020 pandemic, I learned a basic dev stack with HTML+CSS+JS and Flask. I recently started learning a MERN stack, and am actively improving my abilities.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style>
+              <img class="flip-card-image" src="/assets/images/digital_twins-engine.jpeg">
+              <h2 class="flip-card-image-caption">Digital Twins</h2>
+            </div>
+            <div class="flip-card-back">
+              <p class="flip-card-story">Digital twins are virtual models designed to reflect the state of a physical object. I was introduced to it as an intern at CACI and loved the blend of mechanical engineering and computer science. Very much an interest for now, but plenty of learning about IoT and networking is to come.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style>
+              <img class="flip-card-image" src="/assets/images/cutter_face_cad.jpg">
+              <h2 class="flip-card-image-caption">Tunnel Boring</h2>
+            </div>
+            <div class="flip-card-back">
+              <p class="flip-card-story">While at Virginia Tech, I had the pleasure to work with "The Diggeridoos", a tunnel boring competition team. Designing and building a tunnel boring machine as a small (mostly) undergraduate team was difficult, but proved a well rounded engineering problem requiring software, sensor, power system, control system, structural, and hydraulic knowledge.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h1 class="card-header">Skills</h1>
+      <section class="card-wrapper">
+        <div class="reg-card">
+          <img class="reg-card-image" src="/assets/images/c_logo.png">
+          <p class="reg-card-caption">C</p>
+        </div>
+        <div class="reg-card">
+          <img class="reg-card-image" src="/assets/images/java_logo.png">
+          <p class="reg-card-caption">Java</p>
+        </div>
+        <div class="reg-card">
+          <img class="reg-card-image" src="/assets/images/javascript_logo.png">
+          <p class="reg-card-caption">Javascript</p>
+        </div>
+        <div class="reg-card">
+          <img class="reg-card-image" src="/assets/images/mathematica_logo.png">
+          <p class="reg-card-caption">Mathematica</p>
+        </div>
+        <div class="reg-card">
+          <img class="reg-card-image" src="/assets/images/matlab_logo.png">
+          <p class="reg-card-caption">Matlab</p>
+        </div>
+        <div class="reg-card">
+          <img class="reg-card-image" src="/assets/images/python_logo.png">
+          <p class="reg-card-caption">Python</p>
+        </div>
+        <div class="reg-card">
+          <img class="reg-card-image" src="/assets/images/react_logo.png">
+          <p class="reg-card-caption">React</p>
+        </div>
+        <div class="reg-card">
+          <img class="reg-card-image" src="/assets/images/sw_logo.png">
+          <p class="reg-card-caption">Solidworks</p>
+        </div>
+      </section>
+    </main>
   </div>
-  <div class="footer"></div>
+  <footer class="main-footer">
+    <div class="social-icons-wrapper">
+      <div class="spacer"></div>
+      <a href="https://www.linkedin.com/in/joseph-osuch/">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <div class="footer-divider"></div>
+      <a href="mailto:osuchjm@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <div class="footer-divider"></div>
+      <a href="https://github.com/runnerjoe28">
+        <i class="fab fa-github"></i>
+      </a>
+      <div class="spacer"></div>
+    </div>
+  </footer>
 </body>
 </html>
