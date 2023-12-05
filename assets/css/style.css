@@ -432,7 +432,7 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
+.skills .skill-wrap {
   height: 200px;
   display: block;
   background: none;
@@ -443,7 +443,7 @@ section {
   height: 150px;
 }
 
-.skills .progress .skill {
+.skills .skill-wrap .skill {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -453,7 +453,7 @@ section {
   color: #050d18;
 }
 
-.skills .progress .skill {
+.skills .skill-wrap .skill {
   text-align: center;
   font-style: normal;
 }
