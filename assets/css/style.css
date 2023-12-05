@@ -433,10 +433,14 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 50px;
+  height: 200px;
   display: block;
   background: none;
   border-radius: 0;
+}
+
+.skill-image-wrap {
+  height: 150px;
 }
 
 .skills .progress .skill {
@@ -449,21 +453,9 @@ section {
   color: #050d18;
 }
 
-.skills .progress .skill .val {
-  float: right;
+.skills .progress .skill {
+  text-align: center;
   font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #dce8f8;
-  height: 10px;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #149ddd;
 }
 
 /*--------------------------------------------------------------
