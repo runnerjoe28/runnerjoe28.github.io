@@ -18,8 +18,7 @@ Removed the following sections and associated links
 ## Other Changes
 
 - Changed skills section to be image based, made 4 column setup
-- Include actual resume link
-- Added alt text to website images
+- Include actual resume download
 - Change portfolio page to projects (and all verbiage and CSS classes)
 - Group project pages into folders for easier access
 - Change project images to include titles, descriptions, and only a link on the homepage
